@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: var(--corFonte);
+}
+
+body {
+    background-color: #000;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+:root {
+    --corFonte: #EEEEEE;
+    --corFundo: #222831;
+    --corBorda: #00ADB5;
+    --corBotao: #393E46;
+}

@@ -1,0 +1,41 @@
+.containerForm {
+    background-color: var(--corFundo);
+    text-align: center;
+    margin-top: 100px;
+    padding: 32px;
+    border-radius: 24px;
+    border: 6px solid var(--corBorda);
+}
+
+label {
+    display: inline-flex ;
+    margin: 24px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+input {
+    width: 80px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 3px solid var(--corBorda);
+    background-color: transparent;
+    text-align: center;
+    outline: 0;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+button {
+    margin-bottom: 24px;
+    padding: 8px;
+    width: 160px;
+    border: 2px solid var(--corBorda);
+    background-color: var(--corBotao);
+    font-weight: bold;
+    border-radius: 16px;
+}
